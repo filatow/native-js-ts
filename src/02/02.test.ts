@@ -54,8 +54,6 @@ test('should contain contains 1 houses', () => {
     expect(city.houses[0].repaired).toBe(true);
     expect(city.houses[0].address.number).toBe(33);
     expect(city.houses[0].address.street.title).toBe('Washington st.');
-
-
 })
 
 test('should contain hospital and fire station', () => {

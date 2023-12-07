@@ -13,8 +13,10 @@ export type HouseType = {
     address: AddressType
 }
 
+export type TypeOfGovernmentBuildingType = 'HOSPITAL' | 'FIRE-STATION'
+
 export type GovernmentBuildingType = {
-    type: 'HOSPITAL' | 'FIRE-STATION'
+    type: TypeOfGovernmentBuildingType
     budget: number
     staffCount: number
     address: AddressType
